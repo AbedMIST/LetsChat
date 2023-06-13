@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F75F1AFF2A389A20001B6246 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1AFE2A389A20001B6246 /* AppDelegate.swift */; };
+		F75F1B012A389A20001B6246 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1B002A389A20001B6246 /* SceneDelegate.swift */; };
+		F75F1B032A389A20001B6246 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1B022A389A20001B6246 /* ViewController.swift */; };
+		F75F1B062A389A20001B6246 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75F1B042A389A20001B6246 /* Main.storyboard */; };
+		F75F1B092A389A20001B6246 /* LetsChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F75F1B072A389A20001B6246 /* LetsChat.xcdatamodeld */; };
+		F75F1B0B2A389A21001B6246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75F1B0A2A389A21001B6246 /* Assets.xcassets */; };
+		F75F1B0E2A389A21001B6246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75F1B0C2A389A21001B6246 /* LaunchScreen.storyboard */; };
+		F75F1B192A389A21001B6246 /* LetsChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1B182A389A21001B6246 /* LetsChatTests.swift */; };
+		F75F1B232A389A21001B6246 /* LetsChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1B222A389A21001B6246 /* LetsChatUITests.swift */; };
+		F75F1B252A389A21001B6246 /* LetsChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1B242A389A21001B6246 /* LetsChatUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F75F1B152A389A21001B6246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F75F1AF32A389A20001B6246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F75F1AFA2A389A20001B6246;
+			remoteInfo = LetsChat;
+		};
+		F75F1B1F2A389A21001B6246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F75F1AF32A389A20001B6246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F75F1AFA2A389A20001B6246;
+			remoteInfo = LetsChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F75F1AFB2A389A20001B6246 /* LetsChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75F1AFE2A389A20001B6246 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F75F1B002A389A20001B6246 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F75F1B022A389A20001B6246 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F75F1B052A389A20001B6246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F75F1B082A389A20001B6246 /* LetsChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LetsChat.xcdatamodel; sourceTree = "<group>"; };
+		F75F1B0A2A389A21001B6246 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F75F1B0D2A389A21001B6246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F75F1B0F2A389A21001B6246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F75F1B142A389A21001B6246 /* LetsChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75F1B182A389A21001B6246 /* LetsChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsChatTests.swift; sourceTree = "<group>"; };
+		F75F1B1E2A389A21001B6246 /* LetsChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75F1B222A389A21001B6246 /* LetsChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsChatUITests.swift; sourceTree = "<group>"; };
+		F75F1B242A389A21001B6246 /* LetsChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F75F1AF82A389A20001B6246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75F1B112A389A21001B6246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75F1B1B2A389A21001B6246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F75F1AF22A389A20001B6246 = {
+			isa = PBXGroup;
+			children = (
+				F75F1AFD2A389A20001B6246 /* LetsChat */,
+				F75F1B172A389A21001B6246 /* LetsChatTests */,
+				F75F1B212A389A21001B6246 /* LetsChatUITests */,
+				F75F1AFC2A389A20001B6246 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F75F1AFC2A389A20001B6246 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F75F1AFB2A389A20001B6246 /* LetsChat.app */,
+				F75F1B142A389A21001B6246 /* LetsChatTests.xctest */,
+				F75F1B1E2A389A21001B6246 /* LetsChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F75F1AFD2A389A20001B6246 /* LetsChat */ = {
+			isa = PBXGroup;
+			children = (
+				F75F1AFE2A389A20001B6246 /* AppDelegate.swift */,
+				F75F1B002A389A20001B6246 /* SceneDelegate.swift */,
+				F75F1B022A389A20001B6246 /* ViewController.swift */,
+				F75F1B042A389A20001B6246 /* Main.storyboard */,
+				F75F1B0A2A389A21001B6246 /* Assets.xcassets */,
+				F75F1B0C2A389A21001B6246 /* LaunchScreen.storyboard */,
+				F75F1B0F2A389A21001B6246 /* Info.plist */,
+				F75F1B072A389A20001B6246 /* LetsChat.xcdatamodeld */,
+			);
+			path = LetsChat;
+			sourceTree = "<group>";
+		};
+		F75F1B172A389A21001B6246 /* LetsChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				F75F1B182A389A21001B6246 /* LetsChatTests.swift */,
+			);
+			path = LetsChatTests;
+			sourceTree = "<group>";
+		};
+		F75F1B212A389A21001B6246 /* LetsChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F75F1B222A389A21001B6246 /* LetsChatUITests.swift */,
+				F75F1B242A389A21001B6246 /* LetsChatUITestsLaunchTests.swift */,
+			);
+			path = LetsChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F75F1AFA2A389A20001B6246 /* LetsChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75F1B282A389A21001B6246 /* Build configuration list for PBXNativeTarget "LetsChat" */;
+			buildPhases = (
+				F75F1AF72A389A20001B6246 /* Sources */,
+				F75F1AF82A389A20001B6246 /* Frameworks */,
+				F75F1AF92A389A20001B6246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetsChat;
+			productName = LetsChat;
+			productReference = F75F1AFB2A389A20001B6246 /* LetsChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F75F1B132A389A21001B6246 /* LetsChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75F1B2B2A389A21001B6246 /* Build configuration list for PBXNativeTarget "LetsChatTests" */;
+			buildPhases = (
+				F75F1B102A389A21001B6246 /* Sources */,
+				F75F1B112A389A21001B6246 /* Frameworks */,
+				F75F1B122A389A21001B6246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F75F1B162A389A21001B6246 /* PBXTargetDependency */,
+			);
+			name = LetsChatTests;
+			productName = LetsChatTests;
+			productReference = F75F1B142A389A21001B6246 /* LetsChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F75F1B1D2A389A21001B6246 /* LetsChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F75F1B2E2A389A21001B6246 /* Build configuration list for PBXNativeTarget "LetsChatUITests" */;
+			buildPhases = (
+				F75F1B1A2A389A21001B6246 /* Sources */,
+				F75F1B1B2A389A21001B6246 /* Frameworks */,
+				F75F1B1C2A389A21001B6246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F75F1B202A389A21001B6246 /* PBXTargetDependency */,
+			);
+			name = LetsChatUITests;
+			productName = LetsChatUITests;
+			productReference = F75F1B1E2A389A21001B6246 /* LetsChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F75F1AF32A389A20001B6246 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F75F1AFA2A389A20001B6246 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					F75F1B132A389A21001B6246 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F75F1AFA2A389A20001B6246;
+					};
+					F75F1B1D2A389A21001B6246 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F75F1AFA2A389A20001B6246;
+					};
+				};
+			};
+			buildConfigurationList = F75F1AF62A389A20001B6246 /* Build configuration list for PBXProject "LetsChat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F75F1AF22A389A20001B6246;
+			productRefGroup = F75F1AFC2A389A20001B6246 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F75F1AFA2A389A20001B6246 /* LetsChat */,
+				F75F1B132A389A21001B6246 /* LetsChatTests */,
+				F75F1B1D2A389A21001B6246 /* LetsChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F75F1AF92A389A20001B6246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75F1B0E2A389A21001B6246 /* LaunchScreen.storyboard in Resources */,
+				F75F1B0B2A389A21001B6246 /* Assets.xcassets in Resources */,
+				F75F1B062A389A20001B6246 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75F1B122A389A21001B6246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75F1B1C2A389A21001B6246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F75F1AF72A389A20001B6246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75F1B032A389A20001B6246 /* ViewController.swift in Sources */,
+				F75F1B092A389A20001B6246 /* LetsChat.xcdatamodeld in Sources */,
+				F75F1AFF2A389A20001B6246 /* AppDelegate.swift in Sources */,
+				F75F1B012A389A20001B6246 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75F1B102A389A21001B6246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75F1B192A389A21001B6246 /* LetsChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75F1B1A2A389A21001B6246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75F1B252A389A21001B6246 /* LetsChatUITestsLaunchTests.swift in Sources */,
+				F75F1B232A389A21001B6246 /* LetsChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F75F1B162A389A21001B6246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F75F1AFA2A389A20001B6246 /* LetsChat */;
+			targetProxy = F75F1B152A389A21001B6246 /* PBXContainerItemProxy */;
+		};
+		F75F1B202A389A21001B6246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F75F1AFA2A389A20001B6246 /* LetsChat */;
+			targetProxy = F75F1B1F2A389A21001B6246 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F75F1B042A389A20001B6246 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F75F1B052A389A20001B6246 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F75F1B0C2A389A21001B6246 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F75F1B0D2A389A21001B6246 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F75F1B262A389A21001B6246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F75F1B272A389A21001B6246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F75F1B292A389A21001B6246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LetsChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bs.LetsChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F75F1B2A2A389A21001B6246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LetsChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bs.LetsChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F75F1B2C2A389A21001B6246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bs.LetsChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LetsChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LetsChat";
+			};
+			name = Debug;
+		};
+		F75F1B2D2A389A21001B6246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bs.LetsChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LetsChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LetsChat";
+			};
+			name = Release;
+		};
+		F75F1B2F2A389A21001B6246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bs.LetsChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LetsChat;
+			};
+			name = Debug;
+		};
+		F75F1B302A389A21001B6246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bs.LetsChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LetsChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F75F1AF62A389A20001B6246 /* Build configuration list for PBXProject "LetsChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75F1B262A389A21001B6246 /* Debug */,
+				F75F1B272A389A21001B6246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75F1B282A389A21001B6246 /* Build configuration list for PBXNativeTarget "LetsChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75F1B292A389A21001B6246 /* Debug */,
+				F75F1B2A2A389A21001B6246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75F1B2B2A389A21001B6246 /* Build configuration list for PBXNativeTarget "LetsChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75F1B2C2A389A21001B6246 /* Debug */,
+				F75F1B2D2A389A21001B6246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F75F1B2E2A389A21001B6246 /* Build configuration list for PBXNativeTarget "LetsChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F75F1B2F2A389A21001B6246 /* Debug */,
+				F75F1B302A389A21001B6246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F75F1B072A389A20001B6246 /* LetsChat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F75F1B082A389A20001B6246 /* LetsChat.xcdatamodel */,
+			);
+			currentVersion = F75F1B082A389A20001B6246 /* LetsChat.xcdatamodel */;
+			path = LetsChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F75F1AF32A389A20001B6246 /* Project object */;
+}
