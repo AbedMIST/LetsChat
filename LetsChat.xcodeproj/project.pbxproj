@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0038D0DE0B429BA0067A8F15 /* Pods_LetsChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263F7FB4888C69CAEFE10504 /* Pods_LetsChat.framework */; };
+		F742C95D2A399BB5006C812A /* PrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F742C95C2A399BB5006C812A /* PrivacyViewController.swift */; };
+		F742C95F2A39CC8B006C812A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F742C95E2A39CC8B006C812A /* GoogleService-Info.plist */; };
 		F75F1AFF2A389A20001B6246 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1AFE2A389A20001B6246 /* AppDelegate.swift */; };
 		F75F1B012A389A20001B6246 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1B002A389A20001B6246 /* SceneDelegate.swift */; };
-		F75F1B032A389A20001B6246 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1B022A389A20001B6246 /* ViewController.swift */; };
+		F75F1B032A389A20001B6246 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1B022A389A20001B6246 /* WelcomeViewController.swift */; };
 		F75F1B062A389A20001B6246 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75F1B042A389A20001B6246 /* Main.storyboard */; };
 		F75F1B092A389A20001B6246 /* LetsChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F75F1B072A389A20001B6246 /* LetsChat.xcdatamodeld */; };
 		F75F1B0B2A389A21001B6246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75F1B0A2A389A21001B6246 /* Assets.xcassets */; };
@@ -17,6 +20,11 @@
 		F75F1B192A389A21001B6246 /* LetsChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1B182A389A21001B6246 /* LetsChatTests.swift */; };
 		F75F1B232A389A21001B6246 /* LetsChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1B222A389A21001B6246 /* LetsChatUITests.swift */; };
 		F75F1B252A389A21001B6246 /* LetsChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1B242A389A21001B6246 /* LetsChatUITestsLaunchTests.swift */; };
+		F75F1B322A38ACB8001B6246 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1B312A38ACB8001B6246 /* RegisterViewController.swift */; };
+		F75F1B342A38ACDB001B6246 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75F1B332A38ACDB001B6246 /* LoginViewController.swift */; };
+		F791FDF82A3C26AB00B084BB /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F791FDF72A3C26AB00B084BB /* ChatViewController.swift */; };
+		F791FDFB2A3C73EF00B084BB /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F791FDFA2A3C73EF00B084BB /* Message.swift */; };
+		F791FDFE2A3C900000B084BB /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F791FDFD2A3C900000B084BB /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		263F7FB4888C69CAEFE10504 /* Pods_LetsChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetsChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C36D4F5DD49413850B0CA0 /* Pods-LetsChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsChat.release.xcconfig"; path = "Target Support Files/Pods-LetsChat/Pods-LetsChat.release.xcconfig"; sourceTree = "<group>"; };
+		7291595818DB5CBB7DC07361 /* Pods-LetsChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetsChat.debug.xcconfig"; path = "Target Support Files/Pods-LetsChat/Pods-LetsChat.debug.xcconfig"; sourceTree = "<group>"; };
+		F742C95C2A399BB5006C812A /* PrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewController.swift; sourceTree = "<group>"; };
+		F742C95E2A39CC8B006C812A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F75F1AFB2A389A20001B6246 /* LetsChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75F1AFE2A389A20001B6246 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F75F1B002A389A20001B6246 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F75F1B022A389A20001B6246 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F75F1B022A389A20001B6246 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		F75F1B052A389A20001B6246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F75F1B082A389A20001B6246 /* LetsChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LetsChat.xcdatamodel; sourceTree = "<group>"; };
 		F75F1B0A2A389A21001B6246 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +64,11 @@
 		F75F1B1E2A389A21001B6246 /* LetsChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetsChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75F1B222A389A21001B6246 /* LetsChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsChatUITests.swift; sourceTree = "<group>"; };
 		F75F1B242A389A21001B6246 /* LetsChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F75F1B312A38ACB8001B6246 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F75F1B332A38ACDB001B6246 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F791FDF72A3C26AB00B084BB /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		F791FDFA2A3C73EF00B084BB /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		F791FDFD2A3C900000B084BB /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0038D0DE0B429BA0067A8F15 /* Pods_LetsChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +97,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D1FCEBD0E73CE99C6D624AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7291595818DB5CBB7DC07361 /* Pods-LetsChat.debug.xcconfig */,
+				46C36D4F5DD49413850B0CA0 /* Pods-LetsChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3651B3A81F409395B220A166 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				263F7FB4888C69CAEFE10504 /* Pods_LetsChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F75F1AF22A389A20001B6246 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +121,8 @@
 				F75F1B172A389A21001B6246 /* LetsChatTests */,
 				F75F1B212A389A21001B6246 /* LetsChatUITests */,
 				F75F1AFC2A389A20001B6246 /* Products */,
+				0D1FCEBD0E73CE99C6D624AD /* Pods */,
+				3651B3A81F409395B220A166 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +141,14 @@
 			children = (
 				F75F1AFE2A389A20001B6246 /* AppDelegate.swift */,
 				F75F1B002A389A20001B6246 /* SceneDelegate.swift */,
-				F75F1B022A389A20001B6246 /* ViewController.swift */,
 				F75F1B042A389A20001B6246 /* Main.storyboard */,
+				F791FDF92A3C73D000B084BB /* Models */,
+				F791FDFC2A3C740A00B084BB /* Views */,
+				F791FDF62A3C25D400B084BB /* Controllers */,
 				F75F1B0A2A389A21001B6246 /* Assets.xcassets */,
 				F75F1B0C2A389A21001B6246 /* LaunchScreen.storyboard */,
 				F75F1B0F2A389A21001B6246 /* Info.plist */,
+				F742C95E2A39CC8B006C812A /* GoogleService-Info.plist */,
 				F75F1B072A389A20001B6246 /* LetsChat.xcdatamodeld */,
 			);
 			path = LetsChat;
@@ -130,6 +171,34 @@
 			path = LetsChatUITests;
 			sourceTree = "<group>";
 		};
+		F791FDF62A3C25D400B084BB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F75F1B022A389A20001B6246 /* WelcomeViewController.swift */,
+				F75F1B312A38ACB8001B6246 /* RegisterViewController.swift */,
+				F75F1B332A38ACDB001B6246 /* LoginViewController.swift */,
+				F742C95C2A399BB5006C812A /* PrivacyViewController.swift */,
+				F791FDF72A3C26AB00B084BB /* ChatViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F791FDF92A3C73D000B084BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F791FDFA2A3C73EF00B084BB /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F791FDFC2A3C740A00B084BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F791FDFD2A3C900000B084BB /* MyTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F75F1B282A389A21001B6246 /* Build configuration list for PBXNativeTarget "LetsChat" */;
 			buildPhases = (
+				0FC6186CA80C3E6733FE579C /* [CP] Check Pods Manifest.lock */,
 				F75F1AF72A389A20001B6246 /* Sources */,
 				F75F1AF82A389A20001B6246 /* Frameworks */,
 				F75F1AF92A389A20001B6246 /* Resources */,
+				88E68860C29D832B51E6A2BB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F75F1B0E2A389A21001B6246 /* LaunchScreen.storyboard in Resources */,
+				F742C95F2A39CC8B006C812A /* GoogleService-Info.plist in Resources */,
 				F75F1B0B2A389A21001B6246 /* Assets.xcassets in Resources */,
 				F75F1B062A389A20001B6246 /* Main.storyboard in Resources */,
 			);
@@ -256,12 +328,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FC6186CA80C3E6733FE579C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LetsChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88E68860C29D832B51E6A2BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LetsChat/Pods-LetsChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LetsChat/Pods-LetsChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LetsChat/Pods-LetsChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F75F1AF72A389A20001B6246 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F75F1B032A389A20001B6246 /* ViewController.swift in Sources */,
+				F75F1B342A38ACDB001B6246 /* LoginViewController.swift in Sources */,
+				F75F1B032A389A20001B6246 /* WelcomeViewController.swift in Sources */,
+				F791FDF82A3C26AB00B084BB /* ChatViewController.swift in Sources */,
+				F791FDFB2A3C73EF00B084BB /* Message.swift in Sources */,
+				F75F1B322A38ACB8001B6246 /* RegisterViewController.swift in Sources */,
+				F791FDFE2A3C900000B084BB /* MyTableViewCell.swift in Sources */,
+				F742C95D2A399BB5006C812A /* PrivacyViewController.swift in Sources */,
 				F75F1B092A389A20001B6246 /* LetsChat.xcdatamodeld in Sources */,
 				F75F1AFF2A389A20001B6246 /* AppDelegate.swift in Sources */,
 				F75F1B012A389A20001B6246 /* SceneDelegate.swift in Sources */,
@@ -436,6 +556,7 @@
 		};
 		F75F1B292A389A21001B6246 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7291595818DB5CBB7DC07361 /* Pods-LetsChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,7 +566,6 @@
 				INFOPLIST_FILE = LetsChat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -463,6 +583,7 @@
 		};
 		F75F1B2A2A389A21001B6246 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C36D4F5DD49413850B0CA0 /* Pods-LetsChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,7 +593,6 @@
 				INFOPLIST_FILE = LetsChat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
